@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PipBoy</title>
+    <link rel="stylesheet" href="css/tether.scss">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/pipboy.app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav nav-fill" id="mainNav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">STAT</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="inv.html">INV<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DATA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MAP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">RADIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <ul class="nav nav-tabs" id="sec_nav">
+        <li class="nav-item active">
+            <a class="nav-link" data-toggle="tab" href="#status">WEAPONS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#special">ARMORS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#perks">AID</a>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="status_weapons" role="tabpanel">
+          <ul class="item-list">
+              <li>
+                  <a href="#" class="44_Pistol">
+                      .44 Pistol
+                  </a>
+              </li>
+              <li>
+                <a href="#" class="10mm_Pistol">
+                    10mm Pistol
+                </a>
+            </li>
+            <li>
+                <a href="#" class="Rifle">
+                    Rifle
+                </a>
+            </li>
+          </ul>
+
+          <div class="item-stats">
+              <div class="row-highlight">
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="damage pull-right">48</div>
+                          <div class="pull-left">Damage</div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row-highlight">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="fireRate pull-right">48</div>
+                        <div class="pull-left">Fire Rate</div>
+                    </div>
+                </div>
+            </div>
+             <div class="row-highlight">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="range pull-right">48</div>
+                        <div class="pull-left">Range</div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row-highlight">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="accuracy pull-right">48</div>
+                        <div class="pull-left">Accuracy</div>
+                    </div>
+                </div>
+            </div>
+             <div class="row-highlight">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="weight pull-right">48</div>
+                        <div class="pull-left">Weight</div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row-highlight">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="value pull-right">48</div>
+                        <div class="pull-left">Value</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="special" role="tabpanel">SPECIAL</div>
+        <div class="tab-pane fade" id="perks" role="tabpanel" aria-labelledby="contact-tab">PERKS</div>
+    </div>
+    </div>
+
+    
+
+    <navbar>
+        <div class="row pip-footer">
+            <div class="col-3">
+                HP 90/90
+            </div>
+            <div class="col-6">
+                Level 1 : 
+                 <div class="level-progress">
+                    <div class="progress-level-indicator" width="70%">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-3 text-right">
+                AP 70/70
+
+            </div>
+        </div>
+
+    </navbar>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pipboy.app.js"></script>
+
+</body>
+
+</html>
